@@ -5,8 +5,10 @@ jspm_packages
 npm-debug.*
 link-checker-results.txt
 app/**/*.js
+dist
 *.js.map
 e2e/**/*.js
 e2e/**/*.js.map
 _test-output
 _temp
+.DS_Store
