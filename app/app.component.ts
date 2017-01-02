@@ -2,6 +2,15 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'my-app',
-  template: `<h1>Hello {{name}}</h1>`,
+  template: `<div class="navbar navbar-default navbar-fixed-top top-navbar">
+                <div class="container app-container">
+                  <div class="navbar-header">
+                    <h1>7 Minute Workout</h1>
+                  </div>
+                </div>
+              </div>
+              <div class="container body-content app-container">
+                <workout-runner></workout-runner>
+              </div>`,
 })
 export class AppComponent  { name = 'Angular'; }
